@@ -1,0 +1,16 @@
+public class ejercicio2b {
+	public static String quitarEspaciosRepetidos(String cadena) {
+		String texto="";
+		
+			texto=cadena.replace(" ", "");
+			return texto;
+	
+	}
+	public static void main(String[] args) {
+		//Realizar un método que reciba como parámetro un String y me devuelva un nuevo String con donde se hayan eliminado los espacios sobrantes: cuando hay dos o más caracteres consecutivos solo tiene que dejar uno.
+		String cadena=(" Hola  Manolo  García ");
+		System.out.println(ejercicio2b.quitarEspaciosRepetidos(cadena));
+	}
+	
+
+}
